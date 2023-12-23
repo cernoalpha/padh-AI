@@ -1,0 +1,137 @@
+{
+  "Schedule": {
+    "Qx6IXR2UEgQPGlGyCr0SmhhIvio2": [
+      { "date": "March 8, 2023", "time": "10:00 AM - 11:00 AM", "tutor": "Jane Doe" },
+      { "date": "March 10, 2023", "time": "2:00 PM - 3:00 PM", "tutor": "John Smith" }
+    ]
+  },
+  "Student": {
+    "Qx6IXR2UEgQPGlGyCr0SmhhIvio2": {
+      "Attendance": [
+        { "subject": "Maths", "attendance": 5, "totalClasses": 7 },
+        { "subject": "Science", "attendance": 9, "totalClasses": 10 },
+        { "subject": "English", "attendance": 9, "totalClasses": 15 },
+        { "subject": "SST", "attendance": 5, "totalClasses": 10 },
+        { "subject": "civics", "attendance": 10, "totalClasses": 10 }
+    ],
+      "Quiz": [],
+      "Assignments": {
+        "Math": [
+          {
+            "id": 1,
+            "title": "Assignment 1",
+            "description": "This is the first assignment.",
+            "dueDate": "2023-03-08",
+            "completed": false
+          },
+          {
+            "id": 12,
+            "title": "Assignment 13",
+            "description": "This is the thirteenth assignment.",
+            "dueDate": "2023-03-08",
+            "completed": false
+          },
+          {
+            "id": 12,
+            "title": "Assignment 15",
+            "description": "This is the thirteenth assignment.",
+            "dueDate": "2023-03-08",
+            "completed": false
+          }
+        ],
+        "Science": [
+          {
+            "id": 2,
+            "title": "Assignment 2",
+            "description": "This is the second assignment.",
+            "dueDate": "2023-03-15",
+            "completed": true
+          }
+        ],
+        "English": [
+          {
+            "id": 3,
+            "title": "Assignment 3",
+            "description": "This is the third assignment.",
+            "dueDate": "2023-03-22",
+            "completed": false
+          }
+        ],
+        "History": [
+          {
+            "id": 4,
+            "title": "Assignment 4",
+            "description": "This is the fourth assignment.",
+            "dueDate": "2023-03-29",
+            "completed": true
+          }
+        ]
+      }
+    }
+  },
+  "Teacher": {
+    "Assignments": {
+      "Math": [
+        {
+          "id": 5,
+          "title": "Teacher Assignment 1",
+          "description": "This is a teacher's assignment for Math.",
+          "dueDate": "2023-03-10",
+          "completed": false
+        },
+        {
+          "id": 6,
+          "title": "Teacher Assignment 2",
+          "description": "This is another teacher's assignment for Math.",
+          "dueDate": "2023-03-15",
+          "completed": true
+        }
+      ],
+      "Science": [
+        {
+          "id": 7,
+          "title": "Teacher Assignment 3",
+          "description": "This is a teacher's assignment for Science.",
+          "dueDate": "2023-03-20",
+          "completed": false
+        }
+      ]
+    },
+    "Quiz": {
+      "Math": [
+        {
+          "id": 1,
+          "title": "Quiz 1",
+          "description": "This is a quiz for Math.",
+          "date": "2023-03-12",
+          "completed": true
+        }
+      ],
+      "Science": [
+        {
+          "id": 2,
+          "title": "Quiz 2",
+          "description": "This is a quiz for Science.",
+          "date": "2023-03-18",
+          "completed": false
+        }
+      ]
+    }
+  },
+  "Meetings": [
+    {
+      "date": "March 15, 2023",
+      "time": "3:30 PM - 4:30 PM",
+      "location": "Conference Room A",
+      "participants": ["Jane Doe", "John Smith", "Alice Johnson"],
+      "agenda": "Project Discussion"
+    },
+    {
+      "date": "March 20, 2023",
+      "time": "2:00 PM - 3:00 PM",
+      "location": "Virtual Meeting",
+      "participants": ["Jane Doe", "Bob Wilson", "Charlie Brown"],
+      "agenda": "Budget Planning"
+    }
+  ]
+}

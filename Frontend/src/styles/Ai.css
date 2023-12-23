@@ -1,0 +1,9 @@
+
+.App-ai{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0px;
+  background-image: url("/assets/Genai.jpeg");
+  height: 100vh;
+}

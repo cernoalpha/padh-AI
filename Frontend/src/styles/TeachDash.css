@@ -1,0 +1,52 @@
+.course{
+    background-color: #eee;
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: center;
+  padding: 20px;
+  
+}
+
+
+.hero{
+  height: 75vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'cursive-font', cursive;
+  background-image: url('/Assets/nyc2.jpg');
+  background-size: cover;
+  color: white;
+
+}
+
+
+
+.list-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+}
+
+.course-box{
+  margin: 20px 0;
+}
+
+
+.schedule{
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  width: 75%;
+}
+
+.baap{
+  background-color: #B1C9EF;
+}
